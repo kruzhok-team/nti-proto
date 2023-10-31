@@ -1,4 +1,4 @@
-module gitlab.jetstyle.in/jetstyle/nti/nti-proto
+module github.com/kruzhok-team/nti-proto
 
 go 1.21.1
 
