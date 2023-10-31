@@ -1,0 +1,15 @@
+syntax = "proto3";
+package ntiproto;
+
+option go_package = "gitlab.jetstyle.in/jetstyle/nti/nti-proto/go/ntiproto";
+
+// Сообщение Kafka топика calc_constructor_user_scores.
+message UserScore {
+	int32 id = 1;
+	string created_at = 2;
+	string updated_at = 3;
+	int32 user_id = 4;
+	int32 competence_id = 5;
+	int32 year = 6;
+	double score = 7;
+}
