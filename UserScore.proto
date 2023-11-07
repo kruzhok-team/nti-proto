@@ -1,7 +1,7 @@
 syntax = "proto3";
 package ntiproto;
 
-option go_package = "gitlab.jetstyle.in/jetstyle/nti/nti-proto/go/ntiproto";
+option go_package = "go/ntiproto";
 
 // Сообщение Kafka топика calc_constructor_user_scores.
 message UserScore {
